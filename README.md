@@ -5,11 +5,11 @@ Second place winner of sRGB track and Third place winner of Raw-RGB track on [NT
 
 If you use our work in your research or publication, please cite our paper:
 
-'''
+```
 @inproceedings{park2019densely,
-  title={Densely connected hierarchical network for image denoising},
-  author={Park, Bumjun and Yu, Songhyun and Jeong, Jechang},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
-  year={2019}
-'''
+title={Densely connected hierarchical network for image denoising},
+author={Park, Bumjun and Yu, Songhyun and Jeong, Jechang},
+booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+year={2019}
+```
 
