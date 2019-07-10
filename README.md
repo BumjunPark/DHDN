@@ -14,8 +14,8 @@ If you use our work in your research or publication, please cite our paper:
 ```
 
 # Environment
-python 3.6
-pytorch 1.0.0
+python 3.6    
+pytorch 1.0.0    
 MATLAB
 
 # Data
