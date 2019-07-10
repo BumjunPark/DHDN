@@ -42,7 +42,8 @@ We retrained our network as we found some problems of our paper version trained 
 So the result of the pretrained models is a bit different from the paper.    
 Color:
 ```
-kodak| | | | | | | bsd| | | | | | 
+kodak| | | | | | |bsd| | | | | | 
+----|----|----|----|----|----|----|----|----|----|----|----|----|----
 noise level|10| |30| |50| |10| |30| |50| 
  |PSNR|SSIM|PSNR|SSIM|PSNR|SSIM|PSNR|SSIM|PSNR|SSIM|PSNR|SSIM
  noise|28.24|0.8127|18.93|0.3883|14.87|0.2195|28.30|0.8368|19.03|0.4385|15.00|0.2603
