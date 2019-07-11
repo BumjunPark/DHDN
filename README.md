@@ -14,7 +14,7 @@ If you find our project useful in your research, please consider citing:
 ```
 
 # Related work
-Pytorch Implementation of "[Deep Iterative Down-Up CNN for Image Denoising](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Yu_Deep_Iterative_Down-Up_CNN_for_Image_Denoising_CVPRW_2019_paper.pdf)", second place winner of Raw-RGB track and third place winner of sRGB track is available in [here](https://github.com/SonghyunYu/DIDN)
+PyTorch Implementation of "[Deep Iterative Down-Up CNN for Image Denoising](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Yu_Deep_Iterative_Down-Up_CNN_for_Image_Denoising_CVPRW_2019_paper.pdf)", second place winner of Raw-RGB track and third place winner of sRGB track is available in [here](https://github.com/SonghyunYu/DIDN)
 
 # Dependencies
 Python 3.6    
