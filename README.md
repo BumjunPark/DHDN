@@ -34,11 +34,13 @@ As an example, use the following command to use our test codes
 ```
 python test_color.py --cuda True --model1 ./trained.pth --data ./data/noisy.mat --gt ./data/gt.mat --gpu 0 --result ./result/
 ```
-To use our pretrained model, please download [here]()    
+To use our pretrained model, please download [here](https://drive.google.com/open?id=1RUQuCCcPmvdfY2N6feBGPywJsWx-bRZa)    
 Test results are also available in ./data/results
 
 # Results
 We retrained our network as we found some problems of our paper version trained parameters.    
-So the result of the pretrained models is a bit different from the paper.    
+So the result of the provided pretrained models is a bit different from the paper.    
+color:
+![color](https://drive.google.com/open?id=1YBZe4TosIPIxFOGZYsjVR1DENqNcr8rT)
 
 
