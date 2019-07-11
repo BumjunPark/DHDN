@@ -19,7 +19,7 @@ pytorch 1.0.0
 MATLAB
 
 # Data
-We used [DIV2K](http://www.vision.ee.ethz.ch/~timofter/publications/Agustsson-CVPRW-2017.pdf) dataset for training.[download](https://data.vision.ee.ethz.ch/cvl/DIV2K/)    
+We used [DIV2K](http://www.vision.ee.ethz.ch/~timofter/publications/Agustsson-CVPRW-2017.pdf) dataset for training. [download](https://data.vision.ee.ethz.ch/cvl/DIV2K/)    
 To generate training patches, use the matlab codes in ./data    
 We used Kodak and BSD datasets for test datset. These datasets also needs to be modified by matlab codes in ./data to use our test codes.
 
@@ -41,6 +41,6 @@ Test results are also available in ./data/results
 We retrained our network as we found some problems of our paper version trained parameters.    
 So the result of the provided pretrained models is a bit different from the paper.    
 color:
-![color](https://drive.google.com/open?id=1YBZe4TosIPIxFOGZYsjVR1DENqNcr8rT)
+
 
 
