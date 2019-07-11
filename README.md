@@ -13,7 +13,7 @@ If you find our project useful in your research, please consider citing:
   year={2019}
 ```
 
-# Environment
+# Dependencies
 python 3.6    
 pytorch 1.0.0    
 MATLAB
@@ -49,6 +49,6 @@ Color:
 Gray:    
 ![gray](./data/results/gray.png)
 
-
-
+# Contact
+If you have any question about the code or paper, please feel free to contact kkbbbj@gmail.com
 
