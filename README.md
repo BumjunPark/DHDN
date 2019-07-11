@@ -42,6 +42,6 @@ We retrained our network as we found some problems of our paper version trained 
 So the result of the provided pretrained models is a bit different from the paper.    
 color:
 
-![color](./data/result/color.png)
+![color](./data/results/color.png)
 
 
