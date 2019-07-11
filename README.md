@@ -41,7 +41,8 @@ As an example, use the following command to use our test codes
 python test_color.py --cuda True --model1 ./trained.pth --data ./data/noisy.mat --gt ./data/gt.mat --gpu 0 --result ./result/
 ```
 There are other options you can choose.    
-Please refer to the code.    
+Please refer to the code.
+
 To use our pretrained model, please download [here](https://drive.google.com/open?id=1RUQuCCcPmvdfY2N6feBGPywJsWx-bRZa)    
 Test results are also available in ./data/results
 
