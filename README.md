@@ -25,7 +25,7 @@ MATLAB
 We used [DIV2K](http://www.vision.ee.ethz.ch/~timofter/publications/Agustsson-CVPRW-2017.pdf) dataset for training. ([download](https://data.vision.ee.ethz.ch/cvl/DIV2K/))    
 To generate training patches, use the matlab codes in ./data    
 We used Kodak and BSD datasets for test datset.    
-These datasets also needs to be modified by matlab codes in ./data to use our test codes.
+These datasets also need to be modified by matlab codes in ./data to use our test codes.
 
 # Training
 As an example, use the following command to use our training codes
