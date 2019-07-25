@@ -25,7 +25,7 @@ MATLAB
 We used [DIV2K](http://www.vision.ee.ethz.ch/~timofter/publications/Agustsson-CVPRW-2017.pdf) dataset for training. ([download](https://data.vision.ee.ethz.ch/cvl/DIV2K/))    
 To generate training patches, use the matlab codes in ./data    
 We used Kodak and BSD datasets for test datset.    
-These datasets also needs to be modified by matlab codes in ./data to use our test codes.
+These datasets also need to be modified by matlab codes in ./data to use our test codes.
 
 # Training
 As an example, use the following command to use our training codes
@@ -43,7 +43,7 @@ python test_color.py --cuda True --model1 ./trained.pth --data ./data/noisy.mat 
 There are other options you can choose.    
 Please refer to the code.
 
-To use our pretrained model, please download [here](https://drive.google.com/open?id=1RUQuCCcPmvdfY2N6feBGPywJsWx-bRZa)    
+To use our pretrained model, please download [here](https://drive.google.com/open?id=1Ph6sgqavD4Pnz11oT4sA-YcqigAiT26K)    
 Test results are also available in ./data/results
 
 # Results
