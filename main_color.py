@@ -27,6 +27,8 @@ parser.add_argument("--threads", type=int, default=0, help="Number of threads fo
 parser.add_argument("--momentum", default=0.9, type=float, help="Momentum, Default: 0.9")
 parser.add_argument("--weight-decay", "--wd", default=1e-4, type=float, help="weight decay, Default: 1e-4")
 parser.add_argument("--pretrained", default="", type=str, help="path to pretrained model. Default: None")
+parser.add_argument("--train", default="./data/gaus_train_c_50.h5", type=str, help="training set path.")
+parser.add_argument("--valid", default="./data/gaus_val_c_50.h5", type=str, help="validation set path.")
 parser.add_argument("--gpu", default='0', help="GPU number to use when training. ex) 0,1 Default: 0")
 parser.add_argument("--checkpoint", default="./checkpoint", type=str,
                     help="Checkpoint path. Default: ./checkpoint ")
@@ -53,8 +55,8 @@ def main():
     cudnn.benchmark = True
 
     print("===> Loading datasets")
-    train_set = DatasetFromHdf5("./data/gaus_train_c_50.h5")
-    valid_set = "./data/gaus_val_c_50.h5"
+    train_set = DatasetFromHdf5(opt.train)
+    valid_set = opt.valid
     training_data_loader = DataLoader(dataset=train_set, num_workers=opt.threads, batch_size=opt.batchSize,
                                       shuffle=True)
     val = h5py.File(valid_set)
