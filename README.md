@@ -43,7 +43,8 @@ python test_color.py --cuda True --model1 ./trained.pth --data ./data/noisy.mat 
 There are other options you can choose.    
 Please refer to the code.
 
-To use our pretrained model, please download [here](https://drive.google.com/open?id=1Ph6sgqavD4Pnz11oT4sA-YcqigAiT26K)    
+To use our pretrained model for gaussian noise, please download [here](https://drive.google.com/open?id=1Ph6sgqavD4Pnz11oT4sA-YcqigAiT26K)    
+To use our pretrained model for challenge which is trained with [SIDD](https://www.eecs.yorku.ca/~kamel/sidd/), please download [here](https://drive.google.com/open?id=1O4ynoMbojsbGOcH6AfG7O2g3fcmI_KSM)    
 Test results are also available in ./data/results
 
 # Results
